@@ -1,4 +1,4 @@
-//A phone number can be thought of as having three parts: the area code, the exchange code and 
+/*A phone number can be thought of as having three parts: the area code, the exchange code and 
 the number
 Example A phone number, such as (212) 767-8900, can be thought of as having three parts: 
 the area code (212), the exchange (767) and the number (8900).
@@ -10,7 +10,7 @@ number: 8900), and initialize other from the user through member method input ( 
 both the numbers.
 Sample Run:
 My number is (212) 767-8900
-Your number is (415) 555-1212//
+Your number is (415) 555-1212*/
 
 
 
