@@ -1,3 +1,11 @@
+/*Define a base class Person with instance variable name, age. The instance variables are 
+initialized through constructors. The prototype of constructor is as below.
+Person (string, int)
+Define a derived class Employee with instance variables Eid, salary. The instance variables 
+are initialized through constructors. The prototype of constructor is as below.
+Employee (string, int, int, double). Another instance method of Employee class is empDisplay() 
+to display the information of employee details.*/
+
 import java.util.Scanner;
 class person{
 	String name;
