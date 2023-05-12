@@ -1,3 +1,20 @@
+/*Define a class Deposit. The instance variable of the class Deposit are mentioned below.
+Instance variable Datatype
+Principal Long 
+Time Integer
+rate Double
+Total_amt Double
+Initialize the instance variables Principal, Time, rate through constructors. Constructors are 
+overloaded with the following prototypes. 
+Constructor1: Deposit ( )
+Constructor2: Deposit (long, int, double)
+Constructor3: Deposit (long, int)
+Constructor4: Deposit (long, double)
+Apart from constructor, the other instance methods are (i) display ( ): to display the 
+value of instance variables, (ii) calc_amt( ) to calculate the total amount. 
+Total_amt = Principal + (Principal×rate×Time)/100;*/
+
+
 import java.util.Scanner;
 class Deposit{
 	long Principal;
@@ -57,15 +74,15 @@ public class A2Q5 {
 		D1.Display();
 		Scanner sc2 = new Scanner(System.in);
 		System.out.println("constructot3 call");
-		 P = sc.nextLong();
-	     T = sc.nextInt();
+		P = sc.nextLong();
+	        T = sc.nextInt();
 		Deposit D2 = new Deposit(P, T);
 		D2.calc_amt();
 		D2.Display();
 		Scanner sc3 = new Scanner(System.in);
 		System.out.println("constructot1 call");
-		 P = sc.nextLong();
-		 R = sc.nextDouble();
+		P = sc.nextLong();
+		R = sc.nextDouble();
 		Deposit D3 = new Deposit(P, R);
 		
 		
