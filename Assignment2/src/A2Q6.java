@@ -1,3 +1,6 @@
+/*Create an abstract class Shape and the derived classes Square, Triangle and Circle. Write a
+java program to display area of different shapes.*/
+
 import java.util.Scanner;
 abstract class Shape{
 	public abstract double area();
