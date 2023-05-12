@@ -1,3 +1,8 @@
+/*Define a class called Student with instance variables Roll, Name, DSA_Mark. Also, the class 
+consists of instance methods getdata( ), showdata( ) to provide input to the instance variable 
+and to display the value of instance variable. Write a program to create the details of 5 students. 
+Display the information of the students who has secured the highest DSA_Mark.*/
+
 import java.util.Scanner;
 public class A2Q3 {
 	String name;
