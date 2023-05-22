@@ -1,3 +1,4 @@
+/*Write a java program to check whether a number is a spy number or not.*/
 import java.util.Scanner;
 
 public class A1Q3 {
