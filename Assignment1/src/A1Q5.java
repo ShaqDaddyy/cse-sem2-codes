@@ -1,3 +1,5 @@
+/*Write a Java program that outputs all possible strings formed by using the characters 'c', 'a', 'r', 
+'b', 'o', and 'n' exactly once.*/
 import java.util.Scanner;
 public class A1Q5 {
     public static int sum_of_Digits(int n) {
