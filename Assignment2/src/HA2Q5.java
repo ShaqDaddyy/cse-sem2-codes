@@ -15,5 +15,11 @@ public class HA2Q5 {
      meal.display();
  }
 }
+//IMPORTANT
+//First create a RestaurnatMeal interface 
+//Second Create a HotelService interface
+//Thrid create a RoomServiceMeal class 
+//which implements both RestaurnatMeal, HotelService
 
-
+//I have done the code u can see it in src file of assignment2
+//if u still have problem contact me through this no 9937024284
