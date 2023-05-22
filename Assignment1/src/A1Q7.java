@@ -1,3 +1,6 @@
+/*Write a java program to find the maximum and minimum and how many times they both occur
+in an array of n elements. Find out the positions where the maximum first occurs and the
+minimum last occurs.*/
 import java.util.Scanner;
 
 public class A1Q7 {
