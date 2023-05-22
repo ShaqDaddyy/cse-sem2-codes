@@ -1,3 +1,5 @@
+/*Write a method that sums all the numbers in the major diagonal in an n * n matrix of double
+values using the following header:*/
 import java.util.Scanner;
 public class A1Q9 {
     public static double sumMajorDiagonal(double[][] m) {
