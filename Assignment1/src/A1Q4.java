@@ -1,4 +1,5 @@
-
+/*Write a Java program that outputs all possible strings formed by using the characters 'c', 'a', 'r', 
+'b', 'o', and 'n' exactly once.*/
 public class A1Q4 {
 
 	public static void main(String[] args) {
