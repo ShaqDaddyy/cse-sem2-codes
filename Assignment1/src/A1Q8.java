@@ -1,3 +1,5 @@
+/*Write a java program to print M-by-N array in the tabular format. Also, display the sum of 
+elements of the array*/
 import java.util.Scanner;
 
 public class A1Q8 {
