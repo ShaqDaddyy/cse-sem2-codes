@@ -1,3 +1,6 @@
+/*Write a Java method, isOdd( ), that takes an int i and returns true if and only if i is odd. Your
+method can't use the multiplication, modulus, or division operators, The method signature is 
+as follows.*/
 import java.util.Scanner;
 
 public class A1Q6 {
