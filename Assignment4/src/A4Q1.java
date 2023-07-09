@@ -108,21 +108,16 @@ public class A4Q1 {
             return;
         }
 
-        Node temp = start;
-        Node prev = null;
-
-        while (temp.next != null) {
-            prev = temp;
-            temp = temp.next;
+        if(start.next == null) {
+        	DelBeg();
         }
-
-        if (prev == null) {
-            start = null; 
-        } else {
-            prev.next = null;
+        else {
+        	Node temp = start;
+        	while(temp.next.next != null) {
+        		temp = temp.next;
+        	}
+        	temp.next = null;
         }
-
-        System.out.println("Last node deleted from the list.");
     }
     
     public static void insLoc() {
