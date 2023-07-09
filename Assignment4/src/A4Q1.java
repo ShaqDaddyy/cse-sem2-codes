@@ -140,8 +140,8 @@ public class prac {
 				cnt++;
 				temp = temp.next;
 			}
-			start.next = temp.next;	
-			temp.next = start;
+			q.next = temp.next;	
+			temp.next = q;
 		}
 	}
 	}
