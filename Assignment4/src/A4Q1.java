@@ -157,7 +157,7 @@ public class prac {
 			if(loc == 1)
 				delBeg(temp);
 			else if(loc == c1 + 1)
-				delBeg(temp);
+				delEnd(temp);
 			else {
 				temp = start;
 				int cnt = 1;
@@ -179,7 +179,7 @@ public class prac {
 			System.out.println("2 : display");
 			System.out.println("3 : count nodes ");
 			System.out.println("4 : search element");
-			System.out.println("5 : Insert a node at begining");
+			System.out.println("5 : Insert a node at beginning");
 			System.out.println("6 : insert a node at end");
 			System.out.println("7 : delete a node at Begining");
 			System.out.println("8 : delete a node at end");
