@@ -136,6 +136,7 @@ public class prac {
 				q.mark = sc.nextFloat();
 				temp = start;
 				int cnt = 1;
+				while(cnt < loc - 1) {
 				cnt++;
 				temp = temp.next;
 			}
@@ -143,7 +144,7 @@ public class prac {
 			temp.next = start;
 		}
 	}
-	
+	}
 	public static void delLoc(Node temp) {
 		System.out.println("Emter the node location");
 		int loc = sc.nextInt();
